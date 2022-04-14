@@ -1,18 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import FormularioCadastro from "./Components/FormularioCadastro";
+import ListaDeNotas from "./Components/ListaDeNotas";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       
-        <p>
-          Hello World
-        </p>
-        
-      </header>
-    </div>
-  );
+    return (
+      <section>
+        <FormularioCadastro />
+        <ListaDeNotas />
+      </section>
+    );
 }
 
 export default App;
+
